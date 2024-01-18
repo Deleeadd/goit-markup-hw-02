@@ -10,41 +10,66 @@ ul {
 
 a {
   text-decoration: none;
-  font-style: normal;
 }
 
 .logo {
-  color: var(--NAVY-BLUE, #2e2f42);
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.16;
-  letter-spacing: 0.03em;
-}
-
-.logo-style {
   color: var(--IRIS, #4d5ae5);
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-style {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
   letter-spacing: 0.03em;
 }
 
 .menu-item {
-  color: var(--NAVY-BLUE, #2e2f42);
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
+.menu-link {
+  color: var(--NAVY-BLUE, #2e2f42);
+}
+
+.menu-link:hover {
+  color: var(--OCEAN, #404bbf);
+}
+
+.menu-link:active {
+  color: var(--OCEAN, #404bbf);
+}
+
+.contacts {
+  font-style: normal;
+}
+
 .contacts-item {
-  color: var(--SLATE, #434455);
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.contacts-link {
+  color: var(--SLATE, #434455);
+}
+
+.contacts-link:hover {
+  color: var(--OCEAN, #404bbf);
+}
+
+.contacts-link:active {
+  color: var(--OCEAN, #404bbf);
 }
 
 .hero {
@@ -70,11 +95,18 @@ a {
   background-color: var(--IRIS, #4d5ae5);
 }
 
+.hero-button:hover {
+  color: var(--OCEAN, #404bbf);
+}
+
+.hero-button:active {
+  color: var(--OCEAN, #404bbf);
+}
+
 .features {
 }
 
 .visually-hidden {
-  position: absolute;
   width: 1px;
   height: 1px;
   margin: -1px;
@@ -115,8 +147,10 @@ a {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .team-list {
@@ -171,8 +205,10 @@ a {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2;
+  line-height: 1.11;
   letter-spacing: 0.02em;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .portfolio-item-text {
