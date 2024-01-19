@@ -14,7 +14,7 @@ a {
 
 .logo {
   color: var(--IRIS, #4d5ae5);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -23,7 +23,7 @@ a {
 }
 .logo-style {
   color: var(--NAVY-BLUE, #2e2f42);
-  font-family: Raleway, sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -45,7 +45,7 @@ a {
   color: var(--OCEAN, #404bbf);
 }
 
-.menu-link:active {
+.menu-link:focus {
   color: var(--OCEAN, #404bbf);
 }
 
@@ -68,7 +68,7 @@ a {
   color: var(--OCEAN, #404bbf);
 }
 
-.contacts-link:active {
+.contacts-link:focus {
   color: var(--OCEAN, #404bbf);
 }
 
@@ -96,25 +96,14 @@ a {
 }
 
 .hero-button:hover {
-  color: var(--OCEAN, #404bbf);
+  background-color: var(--OCEAN, #404bbf);
 }
 
-.hero-button:active {
-  color: var(--OCEAN, #404bbf);
+.hero-button:focus {
+  background-color: var(--OCEAN, #404bbf);
 }
 
 .features {
-}
-
-.visually-hidden {
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  overflow: hidden;
 }
 
 .features-list {
@@ -188,7 +177,7 @@ a {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
@@ -222,6 +211,14 @@ a {
   background-color: var(--NAVY-BLUE, #2e2f42);
 }
 
+.footer-logo {
+  color: var(--CLOUD, #f4f4fd);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
 .footer-text {
   color: var(--CLOUD, #f4f4fd);
   font-size: 16px;
